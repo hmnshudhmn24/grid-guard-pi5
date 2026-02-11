@@ -1,0 +1,44 @@
+# GridGuard-Pi5 Configuration
+system:
+  name: "GridGuard-Pi5"
+  sampling_rate: 100
+  update_interval: 1
+
+sensors:
+  current:
+    - channel: 0
+      name: "Main"
+      type: "ACS712"
+      sensitivity: 0.066
+      offset: 2.5
+
+  voltage:
+    channel: 3
+    nominal: 120
+
+adc:
+  type: "ADS1115"
+  i2c_address: 0x48
+
+thresholds:
+  voltage:
+    min: 108
+    max: 132
+  current:
+    max: 30
+
+fault_detection:
+  enabled: true
+
+alerts:
+  enabled: true
+  local:
+    buzzer: true
+
+database:
+  type: "sqlite"
+  path: "data/gridguard.db"
+
+energy:
+  track_cost: true
+  cost_per_kwh: 0.12

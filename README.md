@@ -1,4 +1,4 @@
-# GridGuard-Pi5 ⚡🛡️
+# Grid Guard Pi5 ⚡🛡️
 
 A smart electrical load monitoring and fault detection system built on Raspberry Pi 5. GridGuard-Pi5 analyzes real-time power usage to identify overloads and abnormal consumption patterns, supporting preventive maintenance and energy analytics.
 
@@ -1052,76 +1052,3 @@ gridguard-pi5/
 └── templates/               # Web templates
 ```
 
-## 🤝 Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## 📄 License
-
-Copyright 2024 GridGuard-Pi5 Contributors
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-## ⚠️ Disclaimer
-
-**IMPORTANT SAFETY NOTICE**
-
-GridGuard-Pi5 is provided as-is for educational and informational purposes. The developers assume NO LIABILITY for any damage, injury, or loss resulting from the use of this system.
-
-**Electrical Safety:**
-- Working with mains electricity is dangerous and potentially fatal
-- Installation must be performed by licensed electricians
-- System does NOT replace required safety devices (GFCI, circuit breakers)
-- Not certified for life-safety applications
-- Use at your own risk
-
-**Accuracy:**
-- Readings are for monitoring purposes only
-- Not calibrated for revenue metering
-- May have accuracy variations
-- Should not be sole basis for critical decisions
-
-Always follow local electrical codes and regulations.
-
-## 🙏 Acknowledgments
-
-- Raspberry Pi Foundation
-- OpenEnergyMonitor Project
-- Home Assistant Community
-- Apache Software Foundation
-
-## 📞 Support
-
-- **GitHub Issues**: Bug reports and features
-- **Discussions**: Community support
-- **Wiki**: Extended documentation
-- **Email**: support@gridguard-pi5.org
-
-## 🗺️ Roadmap
-
-- [ ] Three-phase monitoring support
-- [ ] Modbus TCP/RTU integration
-- [ ] Solar PV monitoring
-- [ ] Battery storage integration
-- [ ] Advanced ML models
-- [ ] Mobile app (iOS/Android)
-- [ ] Cloud sync option
-- [ ] Multi-site management
-- [ ] Energy trading optimization
-- [ ] Carbon tracking
-
----
-
-**Made with ⚡ for smarter energy management**
-
-**Empowering users with real-time power insights.**
